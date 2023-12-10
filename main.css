@@ -1,0 +1,140 @@
+body {
+	background: #FFFFFF;
+	font-family: times new roman, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin top: 50;
+}
+
+a {
+	color: darkred;
+	font-weight: bold;
+	text-decoration-style: dotted;
+}
+
+div {
+	background-color: #FFFFFF;
+}
+
+.bodygraf {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.one {
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 12px; border and/or padding here.*/
+}
+
+.two {
+	margin-top: 40px;
+	margin-bottom: 25px;
+	/*Tweak the padding settings below and see what happens.*/
+	padding-top: 100px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom:100px;
+	border: 5px solid black;
+}
+
+.two-content {
+	background-color: #064789;
+	padding: 1px 4px;
+	color: white;
+}
+
+.two-content h3 {
+	margin-top: 4px;
+}
+
+.two-content p {
+	margin-bottom: 4px;
+}
+
+/*For padding and border, there is a shorthand way of doing the same thing as
+ above:
+
+	padding: TOP RIGHT BOTTOM LEFT;
+	padding: 100px 100px 100px 100px;
+
+	OR
+
+	padding: TOP&BOTTOM RIGHT&LEFT;
+	padding: 100px 100px;
+
+	OR
+
+	padding: ALL SIDES AT ONCE;
+	padding: 100px;
+*/
+
+/*Note the padding shorthand usage for the next selectors.*/
+
+.three {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.four {background-color: white;
+	margin-top: 40px;
+	padding: 10px 15px;
+	border: 5px solid black;
+}
+
+.five {
+	margin-top: 20px;
+	padding: 10px 15px;
+	
+}
+
+.six {
+	
+	margin-top: 20px;
+	padding: 5px 5px;
+	border: 5px solid black;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.seven {
+	margin-top: 20px;
+	padding: 10px 15px;
+	
+}
+
+.eight {
+	background-color: white;
+	margin-top: 20px;
+	padding: 5px 5px;
+	border: 5px solid black;
+}
+
+.nine {
+	
+	margin-top: 20px;
+	padding: 5px 5px;
+	
+}
+
+.ten {
+	margin-top: 40px;
+	padding: 5px 5px;
+	border: 5px solid black;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 5px;
+}
+
+img {
+	/*Set the image's width property here.*/
+}
